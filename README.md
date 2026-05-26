@@ -3,6 +3,7 @@
 Modpack de **Fabric** para **Minecraft 1.21.1**, publicado con [packwiz](https://packwiz.infra.link/) + GitHub Pages para auto-actualización en **Prism Launcher**.
 
 - **URL del pack:** `https://jandro5vq.github.io/InnoCraft/pack.toml`
+- **Endpoint de versión (texto plano):** `https://jandro5vq.github.io/InnoCraft/version.txt` → devuelve p.ej. `1.4.0`
 - **Repo:** https://github.com/Jandro5vq/InnoCraft
 
 ---
@@ -80,6 +81,8 @@ packwiz modrinth add <slug>     # añadir un mod de Modrinth
 packwiz remove <slug>           # quitar un mod
 packwiz update --all            # actualizar todos
 packwiz refresh                 # SIEMPRE antes de commitear
+# si cambiaste la versión en pack.toml, regenera el endpoint:
+grep -m1 '^version' pack.toml | sed -E 's/.*"(.*)".*/\1/' > version.txt
 git add -A && git commit -m "..." && git push
 ```
 
