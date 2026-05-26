@@ -342,7 +342,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cef332c00d941c658813553fd908b13c3c8b525400309b8235fabbccb59621d6"
+hash = "c48e339c60770703c3ee9ac802a899bc1a86b6be1052c597261df2e21414bba7"
 
 [[files]]
 file = "config/fancymenu/assets/624dc45d01f98.jpeg"
@@ -362,7 +362,7 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "7800bd0449a7c9c121aa4b83e84dab786b67b98068bd1564b091eb541a3c746b"
+hash = "21a3dc7b3e24fbbf17cb059d10de4ada1d207dd7f352a6edaa33d073e9d135a1"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -374,7 +374,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "e7c6039182e199614940d360b98e98c69b60370b274fbfb8249bc24f89541785"
+hash = "fb7ea96fe261106863913135d895d42b3daadefc505f45827d150148f3f13226"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -474,7 +474,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "49159e557084e6bbf896fd44fffa91e824086018a2bdb144a64d139abd6e467a"
+hash = "5929f653e4dc4935d0d2a2bb4575b7e4f8b3b2928d4ea4d6250ec77d7fd2104e"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -850,7 +850,7 @@ hash = "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36"
 
 [[files]]
 file = "data/fabricDefaultResourcePacks.dat"
-hash = "6b3221701111de83d344e8e959737adae34cffbfec191f498f12afa190cfccda"
+hash = "746265d15cfe19b5bc1c2a3de77af252d49af4e4b6c1c8145e42d87ecdf09bae"
 
 [[files]]
 file = "fancymenu_data/action_favorites.json"
@@ -870,7 +870,7 @@ hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_NmQxYTllOWEtY2Y0Zi00ZjhiLWIzNGYtMTJjY2ZjM2U4ZTIxLTE3NzkyOTIwODgyNjA.json"
-hash = "be6bf624dbcf238b62e707e96f4c20a7e6de5d1415713d99abf0c29e4b7c08b0"
+hash = "1b65a709baedb9a8c68ba8482a5803d0da483d618bf21983f8d048c0244644a8"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
