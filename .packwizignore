@@ -1,2 +1,7 @@
 *.mrpack
 .git/
+.gitignore
+.packwizignore
+.claude/
+README.md
+*.py

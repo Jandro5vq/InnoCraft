@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".claude/settings.local.json"
-hash = "1eca159cbf42781b4b6531812fa11f52d876abb7bd744987e3f3ddf0d70af1df"
-
-[[files]]
 file = "config/Adorn.json5"
 hash = "1e6caa4cc7341bc383c5abbf00c10cdcdbb9b6a426d8d25cebff609201635792"
 
@@ -42,7 +38,7 @@ hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
 [[files]]
 file = "config/armor-hider.json"
-hash = "5282d4b080cf1cdbdb1a9826fdf68370ef7422154675bcdc5c525f03f22382c0"
+hash = "70e62fca7d9e45d18a1d0f14011ad8ae9a23fc7e0fd5ba823ce0b96ed16e06cc"
 
 [[files]]
 file = "config/beautify.json"
@@ -346,7 +342,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a2e4fc6c7941ac4a33456831f48b86c681c9a8f4308e812372ec5e544144bc5b"
+hash = "cef332c00d941c658813553fd908b13c3c8b525400309b8235fabbccb59621d6"
 
 [[files]]
 file = "config/fancymenu/assets/624dc45d01f98.jpeg"
@@ -478,7 +474,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e6eb8745eff2a59e1c26b9ef73de19f19f9b4544bcec365edfd6d1afba8e4b5e"
+hash = "49159e557084e6bbf896fd44fffa91e824086018a2bdb144a64d139abd6e467a"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -502,7 +498,7 @@ hash = "d6d7161ca64c0abcd8445f19cde91360030e40af8c7c2b58dbff5395865487bc"
 
 [[files]]
 file = "config/jade/usernamecache.json"
-hash = "cdb0d60f64b9dc421784b3e2e8bed1de20a696dcc373d87157717d6a040b1204"
+hash = "a3888848fa320f156075bb7a23c046e7f6a3d0b8055db7a4abdd8c2f6d84dc56"
 
 [[files]]
 file = "config/jamlib/known_suspicious_jars.txt"
@@ -561,84 +557,8 @@ file = "config/libgui.json5"
 hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
 
 [[files]]
-file = "config/litematica.json"
-hash = "3522ee66f0149f6e90970fe01120b20f1c84162d9f18e8037ba00077b6b28dec"
-
-[[files]]
-file = "config/litematica/litematica_Farm testing and optimising.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_Farm testing and optimising_dim_minecraft_overworld.json"
-hash = "f973a0648b4b10e4c090fc8d3654df2725edfe73acb79cda0b6c18d8b1193d67"
-
-[[files]]
-file = "config/litematica/litematica_Farm testing and optimising_dim_minecraft_the_nether.json"
-hash = "f973a0648b4b10e4c090fc8d3654df2725edfe73acb79cda0b6c18d8b1193d67"
-
-[[files]]
-file = "config/litematica/litematica_New World.json"
-hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
-
-[[files]]
-file = "config/litematica/litematica_New World_dim_minecraft_overworld.json"
-hash = "66c80e4b3f50bc86bf20ed9b9b75334f71f4e0fbf8a28c34fe76649e91e7e957"
-
-[[files]]
-file = "config/litematica/litematica_innocraft.avq5.dev.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_innocraft.avq5.dev_25565.json"
-hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
-
-[[files]]
-file = "config/litematica/litematica_innocraft.avq5.dev_25565_dim_minecraft_overworld.json"
-hash = "5b5c573b4f1be4b24696188f1ceb90ce3343051bd154577d281a4583374ccaec"
-
-[[files]]
-file = "config/litematica/litematica_innocraft.avq5.dev_25565_dim_minecraft_the_nether.json"
-hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
-
-[[files]]
-file = "config/litematica/litematica_innocraft.avq5.dev_dim_minecraft_overworld.json"
-hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
-
-[[files]]
-file = "config/litematica/material_list_2026-05-22_17.43.05.txt"
-hash = "aff5381991342671a7e4892e0af058fec417fc76ffb9c1699a71ab096b510031"
-
-[[files]]
-file = "config/malilib.json"
-hash = "d375c3c93c77e4b9b871477009c2ab6a3564470e839597ee2cf5a0a5218eb9e0"
-
-[[files]]
 file = "config/midnightlib.json"
 hash = "9bcdd9f5ae6c9fecc3a0dfee7507bf17c56702f14e40db9cdde90148f1d3b387"
-
-[[files]]
-file = "config/minihud.json"
-hash = "2f0e9acdd064007fdaa1e071182f9c3d2ebe57c1d53d8202242566a378f6ab3d"
-
-[[files]]
-file = "config/minihud/New World.json"
-hash = "81aa5270a106b30153135bdfa099eec6b91df2c077edc66407bd8e1fb6b941b6"
-
-[[files]]
-file = "config/minihud/New World_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/innocraft.avq5.dev_25565.json"
-hash = "92dde437e88be9b9efa176f7e600207b8f00953ddca11ff7f77409584bcc0ced"
-
-[[files]]
-file = "config/minihud/innocraft.avq5.dev_25565_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/innocraft.avq5.dev_25565_dim_minecraft_the_nether.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -783,10 +703,6 @@ hash = "31067d0b13a8be2817abcd15f09c26ff5dfb4461d235aa96fa31d32480b421b0"
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
-
-[[files]]
-file = "config/tweakeroo.json"
-hash = "8a0a4c988a7a0b68cb93ccd92259e41d74be6592f82e7e7d82cc74d6e928ae53"
 
 [[files]]
 file = "config/vanilla_structures/placement_structure_config.json5"
@@ -958,7 +874,7 @@ hash = "be6bf624dbcf238b62e707e96f4c20a7e6de5d1415713d99abf0c29e4b7c08b0"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "24faf8d87d0cab89ec47c87195227036c16e3b3576315c908e6e4130c2198afb"
+hash = "f54ebdac2b130495c09b6739f184c3e0e1d943e601e20b936dc8ec3c868f110a"
 
 [[files]]
 file = "icon.png"
@@ -968,10 +884,6 @@ hash = "7742930eaf1f096e80cde8645b66975e211ad8c4509613f538f24d405bec7cd2"
 file = "mods/adorn.pw.toml"
 hash = "1363c86e9804addd81f4797f2d328a6ad3fec5b5e5a80f394748fb1886113a7c"
 metafile = true
-
-[[files]]
-file = "mods/advanced-xray-fabric-21.0.0.jar"
-hash = "a93b40a1b45d2fbee22b2d741ce8490f8fe5466cc0e418bf439d254884b4f524"
 
 [[files]]
 file = "mods/amendments.pw.toml"
@@ -1359,7 +1271,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "f838efe628acd798ef35b3990ea468f24c217f2373924488089945922ea92bd5"
+hash = "09f750d489fc2e87b40e0a48248895fa67c74d93e42f6626c22d5abea788b909"
 metafile = true
 
 [[files]]
@@ -1634,6 +1546,21 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "95a191ab338d49df1a34ae4370c962aac57958b355f1254c22d68d092534f7be"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "abbf1d9a627e6c6c3b3b673a02969b986b8d50fa0118bbe968dc17b56500feb8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "b45c5b0c638677b01224cab8bce0f92024f496fd68dca905f68fac0920e48f53"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "0040886ecae2438903861c6cf5ce1f662fd64c4743cbbee5bbf0e0c97f970d2e"
 metafile = true
 
 [[files]]
