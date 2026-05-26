@@ -1,0 +1,13 @@
+name = "When Dungeons Arise"
+filename = "DungeonsArise-1.21.1-2.1.68-fabric-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "2485d748ea4595e8735421c0be7249cc8af693d7c091b69e96319f3129c0cce70dec61c037d6687ac0aea502958d1b2eaa2fbcdc982ef3341897b16c76259ac3"
+url = "https://cdn.modrinth.com/data/8DfbfASn/versions/g8oglmT0/DungeonsArise-1.21.1-2.1.68-fabric-release.jar"
+
+[update]
+[update.modrinth]
+mod-id = "8DfbfASn"
+version = "g8oglmT0"

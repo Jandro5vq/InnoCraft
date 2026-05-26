@@ -1,0 +1,18 @@
+{
+	// Block Reinforcer Level 1 durability (default 300)
+	"blockReinforcerLvl1Durability": 300,
+	// Block Reinforcer Level 2 durability (default 3000)
+	"blockReinforcerLvl2Durability": 3000,
+	// Block Remover durability (default 500)
+	"blockRemoverDurability": 500,
+	// Wire Tool durability (default 300)
+	"wireToolDurability": 300,
+	// KeypadBlock autolock time in ticks 20 ticks = 1 second (default 60 ticks)
+	"keypadBlockAutolockTime": 60,
+	// Required level to be able to clear all wire connections (0=all, 1=moderator, 2=gamemaster, 3=admin, 4=owner)
+	"requiredPermissionLevelToClearAllWireConnections": 4,
+	// Required level to be able to ban recipes (0=all, 1=moderator, 2=gamemaster, 3=admin, 4=owner)
+	"requiredPermissionLevelToBanRecipes": 4,
+	// Banned Recipes
+	"bannedRecipes": []
+}

@@ -1,0 +1,997 @@
+{
+  "configVersion": 2,
+  "helmetOpacity": 0.1,
+  "helmetGlint": true,
+  "chestOpacity": 0.1,
+  "chestGlint": true,
+  "legsOpacity": 0.1,
+  "legsGlint": true,
+  "bootsOpacity": 0.1,
+  "bootsGlint": true,
+  "enableCombatDetection": true,
+  "opacityAffectingElytra": false,
+  "opacityAffectingHatOrSkull": false,
+  "disableArmorHider": false,
+  "disableArmorHiderForOthers": false,
+  "usePlayerSettingsWhenUndeterminable": true,
+  "showSettingsInSkinCustomization": false,
+  "offHandOpacity": 0.15,
+  "playerId": "53e7ea5f-8f69-45c8-9265-2fd4c84ba7d4",
+  "playerName": "Txandro",
+  "exclusionItems": {
+    "items": {
+      "HEAD": {
+        "minecraft:leather_helmet": {
+          "displayName": "Leather Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_helmet": {
+          "displayName": "Chainmail Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_helmet": {
+          "displayName": "Iron Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_helmet": {
+          "displayName": "Golden Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_helmet": {
+          "displayName": "Diamond Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_helmet": {
+          "displayName": "Netherite Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:turtle_helmet": {
+          "displayName": "Turtle Helmet",
+          "shouldIgnore": false
+        }
+      },
+      "CHEST": {
+        "minecraft:leather_chestplate": {
+          "displayName": "Leather Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_chestplate": {
+          "displayName": "Chainmail Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_chestplate": {
+          "displayName": "Iron Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_chestplate": {
+          "displayName": "Golden Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_chestplate": {
+          "displayName": "Diamond Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_chestplate": {
+          "displayName": "Netherite Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:elytra": {
+          "displayName": "Elytra",
+          "shouldIgnore": false
+        }
+      },
+      "LEGS": {
+        "minecraft:leather_leggings": {
+          "displayName": "Leather Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_leggings": {
+          "displayName": "Chainmail Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_leggings": {
+          "displayName": "Iron Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_leggings": {
+          "displayName": "Golden Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_leggings": {
+          "displayName": "Diamond Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_leggings": {
+          "displayName": "Netherite Leggings",
+          "shouldIgnore": false
+        }
+      },
+      "FEET": {
+        "minecraft:leather_boots": {
+          "displayName": "Leather Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_boots": {
+          "displayName": "Chainmail Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_boots": {
+          "displayName": "Iron Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_boots": {
+          "displayName": "Golden Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_boots": {
+          "displayName": "Diamond Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_boots": {
+          "displayName": "Netherite Boots",
+          "shouldIgnore": false
+        }
+      },
+      "OFFHAND": {
+        "minecraft:shield": {
+          "displayName": "Shield",
+          "shouldIgnore": false
+        },
+        "camerapture:picture": {
+          "displayName": "Picture",
+          "shouldIgnore": false
+        },
+        "minecraft:torch": {
+          "displayName": "Torch",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_planks": {
+          "displayName": "Cherry Planks",
+          "shouldIgnore": false
+        },
+        "minecraft:bread": {
+          "displayName": "Bread",
+          "shouldIgnore": false
+        },
+        "minecraft:gravel": {
+          "displayName": "Gravel",
+          "shouldIgnore": false
+        },
+        "minecraft:lily_of_the_valley": {
+          "displayName": "Lily of the Valley",
+          "shouldIgnore": false
+        },
+        "minecraft:netherrack": {
+          "displayName": "Netherrack",
+          "shouldIgnore": false
+        },
+        "minecraft:lectern": {
+          "displayName": "Lectern",
+          "shouldIgnore": false
+        },
+        "minecraft:cobblestone": {
+          "displayName": "Cobblestone",
+          "shouldIgnore": false
+        },
+        "minecraft:powered_rail": {
+          "displayName": "Powered Rail",
+          "shouldIgnore": false
+        }
+      },
+      "MAINHAND": {
+        "minecraft:spruce_button": {
+          "displayName": "Spruce Button",
+          "shouldIgnore": false
+        },
+        "minecraft:crafting_table": {
+          "displayName": "Crafting Table",
+          "shouldIgnore": false
+        },
+        "mcwfurnitures:birch_covered_desk": {
+          "displayName": "Birch Covered Desk",
+          "shouldIgnore": false
+        },
+        "minecraft:grass_block": {
+          "displayName": "Grass Block",
+          "shouldIgnore": false
+        },
+        "minecraft:obsidian": {
+          "displayName": "Obsidian",
+          "shouldIgnore": false
+        },
+        "elevatorid:elevator_white": {
+          "displayName": "White Elevator",
+          "shouldIgnore": false
+        },
+        "minecraft:sand": {
+          "displayName": "Sand",
+          "shouldIgnore": false
+        },
+        "adorn:cyan_chair": {
+          "displayName": "Cyan Chair",
+          "shouldIgnore": false
+        },
+        "immersive_melodies:trumpet": {
+          "displayName": "Trumpet",
+          "shouldIgnore": false
+        },
+        "camerapture:camera": {
+          "displayName": "Camera",
+          "shouldIgnore": false
+        },
+        "camerapture:picture": {
+          "displayName": "Picture",
+          "shouldIgnore": false
+        },
+        "mcwbridges:bridge_lantern": {
+          "displayName": "Bridge Lantern",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:oxidized_lightning_rod": {
+          "displayName": "Oxidized Lightning Rod",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:crab_spawn_egg": {
+          "displayName": "Crab Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:copper_golem_spawn_egg": {
+          "displayName": "Copper Golem Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:tuff_golem_spawn_egg": {
+          "displayName": "Tuff Golem Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:glare_spawn_egg": {
+          "displayName": "Glare Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:iceologer_spawn_egg": {
+          "displayName": "Iceologer Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:illusioner_spawn_egg": {
+          "displayName": "Illusioner Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:mauler_spawn_egg": {
+          "displayName": "Mauler Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:moobloom_spawn_egg": {
+          "displayName": "Moobloom Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:rascal_spawn_egg": {
+          "displayName": "Rascal Spawn Egg",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:music_disc_around_the_corner": {
+          "displayName": "Music Disc",
+          "shouldIgnore": false
+        },
+        "minecraft:jukebox": {
+          "displayName": "Jukebox",
+          "shouldIgnore": false
+        },
+        "chipped:blank_amethyst_block_carving": {
+          "displayName": "Blank Amethyst Block Carving",
+          "shouldIgnore": false
+        },
+        "mcwlights:mangrove_ceiling_fan_light": {
+          "displayName": "Mangrove Ceiling Fan Light",
+          "shouldIgnore": false
+        },
+        "minecraft:redstone_block": {
+          "displayName": "Block of Redstone",
+          "shouldIgnore": false
+        },
+        "supplementaries:bubble_blower": {
+          "displayName": "Bubble Blower",
+          "shouldIgnore": false
+        },
+        "chipped:needles": {
+          "displayName": "Needles",
+          "shouldIgnore": false
+        },
+        "supplementaries:cannon_boat_bamboo": {
+          "displayName": "Bamboo Raft with Cannon",
+          "shouldIgnore": false
+        },
+        "supplementaries:cage": {
+          "displayName": "Cage",
+          "shouldIgnore": false
+        },
+        "supplementaries:cannon_boat_oak": {
+          "displayName": "Oak Boat with Cannon",
+          "shouldIgnore": false
+        },
+        "minecraft:gunpowder": {
+          "displayName": "Gunpowder",
+          "shouldIgnore": false
+        },
+        "supplementaries:cannonball": {
+          "displayName": "Cannonball",
+          "shouldIgnore": false
+        },
+        "minecraft:black_shulker_box": {
+          "displayName": "Black Shulker Box",
+          "shouldIgnore": false
+        },
+        "vinurl:custom_record": {
+          "displayName": "Custom Music Disc",
+          "shouldIgnore": false
+        },
+        "chupachups:reset_lollipop": {
+          "displayName": "Chupa Chup Normal",
+          "shouldIgnore": false
+        },
+        "chupachups:grow_lollipop": {
+          "displayName": "Chupa Chup Grande",
+          "shouldIgnore": false
+        },
+        "minecraft:acacia_sapling": {
+          "displayName": "Acacia Sapling",
+          "shouldIgnore": false
+        },
+        "chupachups:shrink_lollipop": {
+          "displayName": "Chupa Chup Pequeno",
+          "shouldIgnore": false
+        },
+        "mcwbridges:orange_sandstone_bridge": {
+          "displayName": "Red Sandstone Bridge",
+          "shouldIgnore": false
+        },
+        "supplementaries:globe": {
+          "displayName": "Globe",
+          "shouldIgnore": false
+        },
+        "supplementaries:statue": {
+          "displayName": "Statue",
+          "shouldIgnore": false
+        },
+        "supplementaries:confetti_popper": {
+          "displayName": "Confetti Popper",
+          "shouldIgnore": false
+        },
+        "supplementaries:flute": {
+          "displayName": "Flute",
+          "shouldIgnore": false
+        },
+        "fairylights:hanging_lights": {
+          "displayName": "Hanging Lights",
+          "shouldIgnore": false
+        },
+        "fairylights:pennant_bunting": {
+          "displayName": "Pennant Bunting",
+          "shouldIgnore": false
+        },
+        "mcwbridges:nether_bricks_bridge": {
+          "displayName": "Nether Bricks Bridge",
+          "shouldIgnore": false
+        },
+        "beautify:spruce_blinds": {
+          "displayName": "Spruce Blinds",
+          "shouldIgnore": false
+        },
+        "minecraft:command_block": {
+          "displayName": "Command Block",
+          "shouldIgnore": false
+        },
+        "minecraft:stick": {
+          "displayName": "Stick",
+          "shouldIgnore": false
+        },
+        "mcwlights:pink_paper_lamp": {
+          "displayName": "Pink Paper Lamp",
+          "shouldIgnore": false
+        },
+        "minecraft:chain": {
+          "displayName": "Chain",
+          "shouldIgnore": false
+        },
+        "minecraft:lantern": {
+          "displayName": "Lantern",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_log": {
+          "displayName": "Cherry Log",
+          "shouldIgnore": false
+        },
+        "minecraft:acacia_stairs": {
+          "displayName": "Acacia Stairs",
+          "shouldIgnore": false
+        },
+        "minecraft:snow_block": {
+          "displayName": "Snow Block",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_trapdoor": {
+          "displayName": "Cherry Trapdoor",
+          "shouldIgnore": false
+        },
+        "security:red_wire": {
+          "displayName": "Red Wire",
+          "shouldIgnore": false
+        },
+        "minecraft:pink_petals": {
+          "displayName": "Pink Petals",
+          "shouldIgnore": false
+        },
+        "minecraft:dirt": {
+          "displayName": "Dirt",
+          "shouldIgnore": false
+        },
+        "minecraft:wooden_pickaxe": {
+          "displayName": "Wooden Pickaxe",
+          "shouldIgnore": false
+        },
+        "minecraft:coal": {
+          "displayName": "Coal",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_pickaxe": {
+          "displayName": "Stone Pickaxe",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_axe": {
+          "displayName": "Stone Axe",
+          "shouldIgnore": false
+        },
+        "minecraft:mutton": {
+          "displayName": "Raw Mutton",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:white_sleeping_bag": {
+          "displayName": "White Sleeping bag",
+          "shouldIgnore": false
+        },
+        "minecraft:rotten_flesh": {
+          "displayName": "Rotten Flesh",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_sapling": {
+          "displayName": "Cherry Sapling",
+          "shouldIgnore": false
+        },
+        "minecraft:torch": {
+          "displayName": "Torch",
+          "shouldIgnore": false
+        },
+        "minecraft:hay_block": {
+          "displayName": "Hay Bale",
+          "shouldIgnore": false
+        },
+        "minecraft:wheat": {
+          "displayName": "Wheat",
+          "shouldIgnore": false
+        },
+        "minecraft:bread": {
+          "displayName": "Bread",
+          "shouldIgnore": false
+        },
+        "minecraft:cobblestone": {
+          "displayName": "Cobblestone",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_boat": {
+          "displayName": "Cherry Boat",
+          "shouldIgnore": false
+        },
+        "minecraft:egg": {
+          "displayName": "Egg",
+          "shouldIgnore": false
+        },
+        "minecraft:raw_iron": {
+          "displayName": "Raw Iron",
+          "shouldIgnore": false
+        },
+        "minecraft:furnace": {
+          "displayName": "Furnace",
+          "shouldIgnore": false
+        },
+        "minecraft:shield": {
+          "displayName": "Shield",
+          "shouldIgnore": false
+        },
+        "minecraft:chicken": {
+          "displayName": "Raw Chicken",
+          "shouldIgnore": false
+        },
+        "minecraft:gravel": {
+          "displayName": "Gravel",
+          "shouldIgnore": false
+        },
+        "supplementaries:ash": {
+          "displayName": "Ash",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_chestplate": {
+          "displayName": "Iron Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_boots": {
+          "displayName": "Iron Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:bucket": {
+          "displayName": "Bucket",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_pickaxe": {
+          "displayName": "Iron Pickaxe",
+          "shouldIgnore": false
+        },
+        "minecraft:diorite": {
+          "displayName": "Diorite",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_pickaxe": {
+          "displayName": "Diamond Pickaxe",
+          "shouldIgnore": false
+        },
+        "minecraft:flint_and_steel": {
+          "displayName": "Flint and Steel",
+          "shouldIgnore": false
+        },
+        "minecraft:cobbled_deepslate": {
+          "displayName": "Cobbled Deepslate",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_sword": {
+          "displayName": "Diamond Sword",
+          "shouldIgnore": false
+        },
+        "minecraft:nether_wart_block": {
+          "displayName": "Nether Wart Block",
+          "shouldIgnore": false
+        },
+        "minecraft:crimson_planks": {
+          "displayName": "Crimson Planks",
+          "shouldIgnore": false
+        },
+        "minecraft:beef": {
+          "displayName": "Raw Beef",
+          "shouldIgnore": false
+        },
+        "minecraft:lapis_lazuli": {
+          "displayName": "Lapis Lazuli",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_hoe": {
+          "displayName": "Iron Hoe",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_sign": {
+          "displayName": "Cherry Sign",
+          "shouldIgnore": false
+        },
+        "minecraft:white_banner": {
+          "displayName": "Casa Alejandro",
+          "shouldIgnore": false
+        },
+        "minecraft:glass": {
+          "displayName": "Glass",
+          "shouldIgnore": false
+        },
+        "minecraft:enchanting_table": {
+          "displayName": "Enchanting Table",
+          "shouldIgnore": false
+        },
+        "minecraft:cooked_beef": {
+          "displayName": "Steak",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_shovel": {
+          "displayName": "Diamond Shovel",
+          "shouldIgnore": false
+        },
+        "minecraft:shears": {
+          "displayName": "Shears",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:standard": {
+          "displayName": "Standard Traveler\u0027s Backpack",
+          "shouldIgnore": false
+        },
+        "minecraft:white_bed": {
+          "displayName": "White Bed",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:iron_tier_upgrade": {
+          "displayName": "§7Iron Tier Upgrade",
+          "shouldIgnore": false
+        },
+        "minecraft:smithing_table": {
+          "displayName": "Smithing Table",
+          "shouldIgnore": false
+        },
+        "minecraft:leather": {
+          "displayName": "Leather",
+          "shouldIgnore": false
+        },
+        "minecraft:redstone": {
+          "displayName": "Redstone Dust",
+          "shouldIgnore": false
+        },
+        "minecraft:raw_gold": {
+          "displayName": "Raw Gold",
+          "shouldIgnore": false
+        },
+        "minecraft:bow": {
+          "displayName": "Bow",
+          "shouldIgnore": false
+        },
+        "minecraft:glass_bottle": {
+          "displayName": "Glass Bottle",
+          "shouldIgnore": false
+        },
+        "minecraft:campfire": {
+          "displayName": "Campfire",
+          "shouldIgnore": false
+        },
+        "minecraft:poppy": {
+          "displayName": "Poppy",
+          "shouldIgnore": false
+        },
+        "minecraft:cornflower": {
+          "displayName": "Cornflower",
+          "shouldIgnore": false
+        },
+        "minecraft:dandelion": {
+          "displayName": "Dandelion",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_log": {
+          "displayName": "Oak Log",
+          "shouldIgnore": false
+        },
+        "friendsandfoes:cherry_beehive": {
+          "displayName": "Cherry Beehive",
+          "shouldIgnore": false
+        },
+        "minecraft:charcoal": {
+          "displayName": "Charcoal",
+          "shouldIgnore": false
+        },
+        "minecraft:lily_of_the_valley": {
+          "displayName": "Lily of the Valley",
+          "shouldIgnore": false
+        },
+        "minecraft:smooth_stone": {
+          "displayName": "Smooth Stone",
+          "shouldIgnore": false
+        },
+        "minecraft:lead": {
+          "displayName": "Lead",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_fence": {
+          "displayName": "Oak Fence",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_ingot": {
+          "displayName": "Iron Ingot",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_axe": {
+          "displayName": "Iron Axe",
+          "shouldIgnore": false
+        },
+        "minecraft:oxeye_daisy": {
+          "displayName": "Oxeye Daisy",
+          "shouldIgnore": false
+        },
+        "waystones:waystone": {
+          "displayName": "Waystone",
+          "shouldIgnore": false
+        },
+        "minecraft:ender_pearl": {
+          "displayName": "Ender Pearl",
+          "shouldIgnore": false
+        },
+        "minecraft:chest": {
+          "displayName": "Chest",
+          "shouldIgnore": false
+        },
+        "waystones:blackstone_waystone": {
+          "displayName": "Black Waystone",
+          "shouldIgnore": false
+        },
+        "minecraft:gold_ingot": {
+          "displayName": "Gold Ingot",
+          "shouldIgnore": false
+        },
+        "minecraft:netherrack": {
+          "displayName": "Netherrack",
+          "shouldIgnore": false
+        },
+        "minecraft:quartz": {
+          "displayName": "Nether Quartz",
+          "shouldIgnore": false
+        },
+        "minecraft:cooked_porkchop": {
+          "displayName": "Cooked Porkchop",
+          "shouldIgnore": false
+        },
+        "minecraft:dispenser": {
+          "displayName": "Dispenser",
+          "shouldIgnore": false
+        },
+        "minecraft:bone_meal": {
+          "displayName": "Bone Meal",
+          "shouldIgnore": false
+        },
+        "minecraft:azure_bluet": {
+          "displayName": "Azure Bluet",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_door": {
+          "displayName": "Cherry Door",
+          "shouldIgnore": false
+        },
+        "minecraft:lectern": {
+          "displayName": "Lectern",
+          "shouldIgnore": false
+        },
+        "minecraft:fletching_table": {
+          "displayName": "Fletching Table",
+          "shouldIgnore": false
+        },
+        "minecraft:cherry_planks": {
+          "displayName": "Cherry Planks",
+          "shouldIgnore": false
+        },
+        "minecraft:bone": {
+          "displayName": "Bone",
+          "shouldIgnore": false
+        },
+        "minecraft:rail": {
+          "displayName": "Rail",
+          "shouldIgnore": false
+        },
+        "minecraft:spruce_planks": {
+          "displayName": "Spruce Planks",
+          "shouldIgnore": false
+        },
+        "minecraft:bookshelf": {
+          "displayName": "Bookshelf",
+          "shouldIgnore": false
+        },
+        "minecraft:book": {
+          "displayName": "Book",
+          "shouldIgnore": false
+        },
+        "minecraft:spruce_trapdoor": {
+          "displayName": "Spruce Trapdoor",
+          "shouldIgnore": false
+        },
+        "minecraft:spruce_log": {
+          "displayName": "Spruce Log",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_axe": {
+          "displayName": "Diamond Axe",
+          "shouldIgnore": false
+        },
+        "minecraft:spruce_sapling": {
+          "displayName": "Spruce Sapling",
+          "shouldIgnore": false
+        },
+        "minecraft:bee_nest": {
+          "displayName": "Bee Nest",
+          "shouldIgnore": false
+        },
+        "minecraft:emerald": {
+          "displayName": "Emerald",
+          "shouldIgnore": false
+        },
+        "chipped:glass_cherry_door": {
+          "displayName": "Glass Cherry Door",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:blank_upgrade": {
+          "displayName": "Blank Upgrade",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_boots": {
+          "displayName": "Diamond Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:honeycomb": {
+          "displayName": "Honeycomb",
+          "shouldIgnore": false
+        },
+        "minecraft:birch_button": {
+          "displayName": "Birch Button",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:bee": {
+          "displayName": "Bee Traveler\u0027s Backpack",
+          "shouldIgnore": false
+        },
+        "minecraft:water_bucket": {
+          "displayName": "Water Bucket",
+          "shouldIgnore": false
+        },
+        "minecraft:wheat_seeds": {
+          "displayName": "Wheat Seeds",
+          "shouldIgnore": false
+        },
+        "minecraft:enchanted_book": {
+          "displayName": "Enchanted Book",
+          "shouldIgnore": false
+        },
+        "minecraft:grindstone": {
+          "displayName": "Grindstone",
+          "shouldIgnore": false
+        },
+        "minecraft:milk_bucket": {
+          "displayName": "Milk Bucket",
+          "shouldIgnore": false
+        },
+        "minecraft:painting": {
+          "displayName": "Painting",
+          "shouldIgnore": false
+        },
+        "minecraft:packed_ice": {
+          "displayName": "Packed Ice",
+          "shouldIgnore": false
+        },
+        "minecraft:copper_ingot": {
+          "displayName": "Copper Ingot",
+          "shouldIgnore": false
+        },
+        "minecraft:kelp": {
+          "displayName": "Kelp",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_leaves": {
+          "displayName": "Oak Leaves",
+          "shouldIgnore": false
+        },
+        "minecraft:filled_map": {
+          "displayName": "Buried Treasure Map",
+          "shouldIgnore": false
+        },
+        "minecraft:flower_pot": {
+          "displayName": "Flower Pot",
+          "shouldIgnore": false
+        },
+        "minecraft:apple": {
+          "displayName": "Apple",
+          "shouldIgnore": false
+        },
+        "travelersbackpack:sponge": {
+          "displayName": "Sponge Traveler\u0027s Backpack",
+          "shouldIgnore": false
+        },
+        "minecraft:stone": {
+          "displayName": "Stone",
+          "shouldIgnore": false
+        },
+        "minecraft:hopper": {
+          "displayName": "Hopper",
+          "shouldIgnore": false
+        },
+        "waystones:warp_stone": {
+          "displayName": "Warp Stone",
+          "shouldIgnore": false
+        },
+        "chipped:polished_stone": {
+          "displayName": "Polished Stone",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_stairs": {
+          "displayName": "Stone Stairs",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_fence_gate": {
+          "displayName": "Oak Fence Gate",
+          "shouldIgnore": false
+        },
+        "minecraft:scaffolding": {
+          "displayName": "Scaffolding",
+          "shouldIgnore": false
+        },
+        "minecraft:polished_deepslate_slab": {
+          "displayName": "Polished Deepslate Slab",
+          "shouldIgnore": false
+        },
+        "minecraft:ice": {
+          "displayName": "Ice",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_boots": {
+          "displayName": "Golden Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:carrot": {
+          "displayName": "Carrot",
+          "shouldIgnore": false
+        },
+        "minecraft:soul_sand": {
+          "displayName": "Soul Sand",
+          "shouldIgnore": false
+        },
+        "minecraft:purple_bed": {
+          "displayName": "Purple Bed",
+          "shouldIgnore": false
+        },
+        "minecraft:lava_bucket": {
+          "displayName": "Lava Bucket",
+          "shouldIgnore": false
+        },
+        "minecraft:redstone_torch": {
+          "displayName": "Redstone Torch",
+          "shouldIgnore": false
+        },
+        "minecraft:repeater": {
+          "displayName": "Redstone Repeater",
+          "shouldIgnore": false
+        },
+        "minecraft:comparator": {
+          "displayName": "Redstone Comparator",
+          "shouldIgnore": false
+        },
+        "minecraft:soul_campfire": {
+          "displayName": "Soul Campfire",
+          "shouldIgnore": false
+        },
+        "minecraft:warped_fungus": {
+          "displayName": "Warped Fungus",
+          "shouldIgnore": false
+        },
+        "minecraft:ladder": {
+          "displayName": "Ladder",
+          "shouldIgnore": false
+        },
+        "minecraft:white_wool": {
+          "displayName": "White Wool",
+          "shouldIgnore": false
+        },
+        "minecraft:stonecutter": {
+          "displayName": "Stonecutter",
+          "shouldIgnore": false
+        },
+        "chipped:tiny_layered_netherrack_slabs": {
+          "displayName": "Tiny Layered Netherrack Slabs",
+          "shouldIgnore": false
+        },
+        "chipped:tiny_netherrack_bricks": {
+          "displayName": "Tiny Netherrack Bricks",
+          "shouldIgnore": false
+        },
+        "chipped:netherrack_mini_tiles": {
+          "displayName": "Netherrack Mini Tiles",
+          "shouldIgnore": false
+        },
+        "minecraft:nether_gold_ore": {
+          "displayName": "Nether Gold Ore",
+          "shouldIgnore": false
+        },
+        "chipped:loded_netherrack": {
+          "displayName": "Loded Netherrack",
+          "shouldIgnore": false
+        },
+        "minecraft:powered_rail": {
+          "displayName": "Powered Rail",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_slab": {
+          "displayName": "Oak Slab",
+          "shouldIgnore": false
+        },
+        "minecraft:name_tag": {
+          "displayName": "Eustaquio",
+          "shouldIgnore": false
+        },
+        "minecraft:minecart": {
+          "displayName": "Minecart",
+          "shouldIgnore": false
+        }
+      }
+    }
+  }
+}

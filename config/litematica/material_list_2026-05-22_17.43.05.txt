@@ -1,0 +1,19 @@
++-------------------------+-------+---------+-----------+
+| Material List for placement 'Bee_Farm'                |
++-------------------------+-------+---------+-----------+
+| Item                    | Total | Missing | Available |
++-------------------------+-------+---------+-----------+
+| Redstone Dust           |    40 |      40 |         0 |
+| Smooth Stone            |    40 |      40 |         0 |
+| Glass                   |    18 |      18 |         6 |
+| Smooth Stone Slab       |    16 |      16 |         0 |
+| Bee Nest                |     8 |       8 |         0 |
+| Dispenser               |     8 |       8 |         0 |
+| Flowering Azalea Leaves |     8 |       8 |         0 |
+| Hopper                  |     8 |       8 |         0 |
+| Redstone Comparator     |     8 |       8 |         0 |
+| Chest                   |     2 |       2 |         0 |
+| Grass Block             |     1 |       1 |         0 |
++-------------------------+-------+---------+-----------+
+| Item                    | Total | Missing | Available |
++-------------------------+-------+---------+-----------+

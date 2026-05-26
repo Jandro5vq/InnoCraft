@@ -1,0 +1,13 @@
+name = "Security"
+filename = "security-1.21.1-0.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "e8014e39c7a01bba574a804323e6c583b90885a54efa97c731edb85c160f8169908a7fe8c616c34163e80afcf6d1aa4b88a29a5250d38b2a6b8329e228ac6826"
+url = "https://cdn.modrinth.com/data/aQ9C6fOt/versions/K1lPbs4P/security-1.21.1-0.1.3.jar"
+
+[update]
+[update.modrinth]
+mod-id = "aQ9C6fOt"
+version = "K1lPbs4P"
