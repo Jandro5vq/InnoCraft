@@ -142,7 +142,10 @@ with open(os.path.join(OUT,'pack.toml'),'w') as fh:
 print('pack.toml escrito:')
 print(packtoml)
 
-# --- version.txt (endpoint plano servido por GitHub Pages) ---
+# --- endpoints de versión servidos por GitHub Pages ---
 with open(os.path.join(OUT,'version.txt'),'w') as fh:
     fh.write(version + '\n')
-print('version.txt ->', version)
+with open(os.path.join(OUT,'version.md'),'w') as fh:
+    # Sintaxis FancyMenu: ^^^ delimita bloque centrado
+    fh.write(f'^^^\n# InnoCraft v{version}\n^^^\n')
+print('version.txt / version.md ->', version)

@@ -7,3 +7,6 @@ README.md
 *.py
 version.txt
 *.sh
+version.md
+changelog.md
+CHANGELOG_NEXT.md

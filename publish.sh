@@ -2,9 +2,14 @@
 #
 # publish.sh — publica el .mrpack más nuevo como nueva versión de InnoCraft.
 #
-#   ./publish.sh                 # publica el .mrpack más reciente del repo
-#   ./publish.sh "mensaje"       # con mensaje de commit personalizado
+#   ./publish.sh -c "- cambio 1
+#   - cambio 2"                  # publica con changelog (sintaxis FancyMenu)
+#   ./publish.sh                 # usa CHANGELOG_NEXT.md si existe; si no, error
+#   ./publish.sh "msg commit"    # mensaje de commit personalizado
 #   ./publish.sh --force         # republica aunque el tag ya exista (reescribe tag)
+#
+# El changelog debe respetar el formato de FancyMenu y caber en <=10 líneas
+# tras añadirle la cabecera "^^^ # InnoCraft vX.Y.Z ^^^" (3 líneas + blanco).
 #
 # Hace: elegir mrpack más nuevo -> reconstrucción limpia con build_packwiz.py ->
 # packwiz refresh -> validar -> commit + push + tag -> verificar GitHub Pages.
@@ -23,12 +28,25 @@ PAGES_VERSION_URL="https://jandro5vq.github.io/InnoCraft/version.txt"
 # --- argumentos ---
 FORCE=0
 MSG=""
-for a in "$@"; do
-  case "$a" in
-    -f|--force) FORCE=1 ;;
-    *) MSG="$a" ;;
+CHANGELOG_BODY=""
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -f|--force) FORCE=1; shift ;;
+    -c|--changelog) CHANGELOG_BODY="${2:-}"; shift 2 ;;
+    *) MSG="$1"; shift ;;
   esac
 done
+
+# Fuente del changelog: -c "body"  >  fichero CHANGELOG_NEXT.md  >  error
+CHANGELOG_NEXT_FILE="CHANGELOG_NEXT.md"
+if [[ -z "$CHANGELOG_BODY" && -s "$CHANGELOG_NEXT_FILE" ]]; then
+  CHANGELOG_BODY="$(cat "$CHANGELOG_NEXT_FILE")"
+  CHANGELOG_FROM_FILE=1
+fi
+if [[ -z "$CHANGELOG_BODY" ]]; then
+  echo "ERROR: falta el changelog. Pásalo con  -c \"body\"  o crea $CHANGELOG_NEXT_FILE."
+  exit 1
+fi
 
 # --- comprobaciones previas ---
 command -v packwiz >/dev/null 2>&1 || { echo "ERROR: packwiz no está disponible en el PATH."; exit 1; }
@@ -77,6 +95,20 @@ CLAUDE="$(grep -c '\.claude' index.toml || true)"
 echo "==> validación: $MODS mods | .claude en index: $CLAUDE | version.txt: $(cat version.txt)"
 [[ "$CLAUDE" == "0" ]] || { echo "ERROR: .claude está en el índice; revisa .packwizignore antes de publicar."; exit 1; }
 [[ "$(cat version.txt)" == "$VERSION" ]] || { echo "ERROR: version.txt no coincide con $VERSION."; exit 1; }
+
+# --- changelog.md (sintaxis FancyMenu: ^^^ centra, # encabezado, - bullets) ---
+{
+  printf '^^^\n# InnoCraft v%s\n^^^\n\n' "$VERSION"
+  printf '%s\n' "$CHANGELOG_BODY"
+} > changelog.md
+TOTAL_LINES="$(wc -l < changelog.md)"
+if (( TOTAL_LINES > 10 )); then
+  echo "ERROR: changelog.md tiene $TOTAL_LINES líneas (máx 10). Acorta el body."
+  exit 1
+fi
+echo "==> changelog.md generado ($TOTAL_LINES/10 líneas)"
+# si el body venía de CHANGELOG_NEXT.md, ya cumplió su función → eliminar
+[[ "${CHANGELOG_FROM_FILE:-0}" == "1" ]] && rm -f "$CHANGELOG_NEXT_FILE"
 
 # --- commit + push ---
 COMMIT_MSG="${MSG:-InnoCraft $VERSION}"
