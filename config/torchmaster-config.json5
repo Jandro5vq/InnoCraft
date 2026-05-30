@@ -1,0 +1,12 @@
+{
+	"feralFlareLanternTickRate": 2,
+	"feralFlareLanternLightHardcap": 255,
+	"feralFlareLanternRadius": 24,
+	"feralFlareLanternMinLightLevel": 7,
+	"dreadLampRadius": 64,
+	"megaTorchRadius": 64,
+	"blockOnlyNaturalSpawns": true,
+	"blockVillageSieges": true,
+	"megaTorchEntityBlockListOverrides": [],
+	"dreadLampEntityBlockListOverrides": []
+}

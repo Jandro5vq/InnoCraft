@@ -1,5 +1,8 @@
 ^^^
-# InnoCraft v1.6.0
+# InnoCraft v1.7.0
 ^^^
 
-- Ajuste menor en las opciones de %#FFD66B%FancyMenu%#%.
+%#7ED321%6 mods nuevos:%#%
+- **Carry On** · **IronSmelters** · **MouseTweaks**
+- **Prickle** · **Torchmaster** · **Trashcans**
+- Ajustes menores de configs.

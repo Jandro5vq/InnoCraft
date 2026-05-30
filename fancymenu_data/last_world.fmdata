@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = innocraft.avq5.dev:25565
+  is_server = false
+  world = /home/alejandro/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/InnoCraft 1.7.0/minecraft/saves/New World
 }
 

@@ -1,0 +1,107 @@
+{
+  "vanilla": {
+    "//": "Configuration for the Vanilla Smelters",
+    "value": {
+      "Copper": {
+        "//": "Configuration for the Copper smelters",
+        "value": {
+          "Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Furnace.",
+            "//default": 1.6,
+            "value": 1.6
+          },
+          "Blast Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Blast Furnace.",
+            "//default": 1.6,
+            "value": 1.6
+          },
+          "Smoker Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Smoker.",
+            "//default": 1.6,
+            "value": 1.6
+          }
+        }
+      },
+      "Iron": {
+        "//": "Configuration for the Iron smelters",
+        "value": {
+          "Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Furnace.",
+            "//default": 2.0,
+            "value": 2.0
+          },
+          "Blast Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Blast Furnace.",
+            "//default": 2.0,
+            "value": 2.0
+          },
+          "Smoker Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Smoker.",
+            "//default": 2.0,
+            "value": 2.0
+          }
+        }
+      },
+      "Gold": {
+        "//": "Configuration for the Gold smelters",
+        "value": {
+          "Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Furnace.",
+            "//default": 4.0,
+            "value": 4.0
+          },
+          "Blast Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Blast Furnace.",
+            "//default": 4.0,
+            "value": 4.0
+          },
+          "Smoker Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Smoker.",
+            "//default": 4.0,
+            "value": 4.0
+          }
+        }
+      },
+      "Diamond": {
+        "//": "Configuration for the Diamond smelters",
+        "value": {
+          "Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Furnace.",
+            "//default": 8.0,
+            "value": 8.0
+          },
+          "Blast Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Blast Furnace.",
+            "//default": 8.0,
+            "value": 8.0
+          },
+          "Smoker Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Smoker.",
+            "//default": 8.0,
+            "value": 8.0
+          }
+        }
+      },
+      "Obsidian": {
+        "//": "Configuration for the Obsidian smelters",
+        "value": {
+          "Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Furnace.",
+            "//default": 16.0,
+            "value": 16.0
+          },
+          "Blast Furnace Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Blast Furnace.",
+            "//default": 16.0,
+            "value": 16.0
+          },
+          "Smoker Speed Multiplier": {
+            "//": "How fast items are smelted compared to the vanilla Smoker.",
+            "//default": 16.0,
+            "value": 16.0
+          }
+        }
+      }
+    }
+  }
+}

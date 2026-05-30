@@ -1,0 +1,27 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:ironsmelters:obsidian_furnace",
+    "item:ironchest:emerald_obsidian_upgrade",
+    "item:ironchest:emerald_crystal_upgrade",
+    "item:ironsmelters:upgrade_gold_to_diamond",
+    "item:ironsmelters:upgrade_iron_to_gold",
+    "item:ironsmelters:upgrade_copper_to_iron",
+    "item:ironsmelters:upgrade_stone_to_iron",
+    "item:ironsmelters:upgrade_stone_to_copper",
+    "item:ironsmelters:gold_blast_furnace",
+    "item:ironsmelters:iron_blast_furnace",
+    "item:ironsmelters:copper_blast_furnace",
+    "item:ironsmelters:diamond_furnace",
+    "item:ironsmelters:gold_furnace",
+    "item:ironsmelters:iron_furnace"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

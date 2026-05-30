@@ -13,6 +13,10 @@ file = "config/DistantHorizons.toml"
 hash = "d674d4e35d0837d9be7e6033c6be8260249a17368df6925c9000f22546135bd6"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
 file = "config/VinURLConfig.json5"
 hash = "711a5fc9a06fb38e1f4f0637a7ed21c79b5100fc6bc9e4a34ffc61f7180178e3"
 
@@ -38,7 +42,7 @@ hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
 [[files]]
 file = "config/armor-hider.json"
-hash = "70e62fca7d9e45d18a1d0f14011ad8ae9a23fc7e0fd5ba823ce0b96ed16e06cc"
+hash = "5282d4b080cf1cdbdb1a9826fdf68370ef7422154675bcdc5c525f03f22382c0"
 
 [[files]]
 file = "config/beautify.json"
@@ -342,7 +346,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c48e339c60770703c3ee9ac802a899bc1a86b6be1052c597261df2e21414bba7"
+hash = "3df5cbad32d614823eb1b735992109693a140e13d1aa211f9c465c946e678b3d"
 
 [[files]]
 file = "config/fancymenu/assets/624dc45d01f98.jpeg"
@@ -362,19 +366,27 @@ hash = "6f839fad9a09709e9c2d1b269218da6a515ea31495575de5bdbc901147740327"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "21a3dc7b3e24fbbf17cb059d10de4ada1d207dd7f352a6edaa33d073e9d135a1"
+hash = "dd2d4329debf82b3b0fffe708e1c1fb5948e758286ee3f33269523c2541dfce7"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "f39a03e908689a4e378709da9942c394b92f5e084f04c6327d314fc116ef9fc4"
+hash = "a6296918aacdfeb89277667e7ca004d36ada326c4c6ddac4b6fb21a94ddce7e1"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
+file = "config/fancymenu/listener_instances.txt"
+hash = "1ec60d73c93a828cb0588039c852b1a5fee5817b41b835dcfab3d8c7cea66034"
+
+[[files]]
 file = "config/fancymenu/options.txt"
-hash = "24f79fde6f442cd7dd9e3c6058c659d180e9f4c7b46ef00010e8c64a2822d8d3"
+hash = "e7c6039182e199614940d360b98e98c69b60370b274fbfb8249bc24f89541785"
+
+[[files]]
+file = "config/fancymenu/scheduler_instances.txt"
+hash = "cef9a4a8c7f3eed93f6173be34ac776fb4cdd829f5de2dd25599e198a5ff2e6b"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -414,7 +426,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+hash = "6ea94b422945f9a44566ef194fda65018f4bcd0bc529157a459fa3bc23c3b367"
 
 [[files]]
 file = "config/farmersdelight-client.json"
@@ -474,7 +486,11 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "5929f653e4dc4935d0d2a2bb4575b7e4f8b3b2928d4ea4d6250ec77d7fd2104e"
+hash = "60d6328e2dd2f5a7e05209faf72fa9e0e7553520578c216befa836a2ff780e13"
+
+[[files]]
+file = "config/ironsmelters.json"
+hash = "51f3d81d4d55eac29721a7ff7df394c3a94dd5c465496dc29e7e24c7468f5919"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -557,8 +573,36 @@ file = "config/libgui.json5"
 hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
 
 [[files]]
+file = "config/litematica.json"
+hash = "947c8a11102b119b129545bb1a2d4293981f69935b3020fda9e40a99923fb059"
+
+[[files]]
+file = "config/litematica/litematica_New World.json"
+hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+
+[[files]]
+file = "config/litematica/litematica_New World_dim_minecraft_overworld.json"
+hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
+
+[[files]]
+file = "config/malilib.json"
+hash = "d375c3c93c77e4b9b871477009c2ab6a3564470e839597ee2cf5a0a5218eb9e0"
+
+[[files]]
 file = "config/midnightlib.json"
 hash = "9bcdd9f5ae6c9fecc3a0dfee7507bf17c56702f14e40db9cdde90148f1d3b387"
+
+[[files]]
+file = "config/minihud.json"
+hash = "9478903c8eaf1b3ea2854c1103b31d651cba2546715abeb820c734efa1a56873"
+
+[[files]]
+file = "config/minihud/New World.json"
+hash = "b1c8cccbb5d77826e86a6a775ddaf621219df7cc6969273ffff3e78b9b3fb754"
+
+[[files]]
+file = "config/minihud/New World_dim_minecraft_overworld.json"
+hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -681,6 +725,10 @@ file = "config/supplementaries-common.json"
 hash = "ac79f7706a0db2d1606fa08aa781c24dd79d36a12fa0c8d914f05e89b833f2d3"
 
 [[files]]
+file = "config/torchmaster-config.json5"
+hash = "2b7105c8e22fa4a421e80a73b36f7e0066ad434499aff41dee19ba7861b8b4a0"
+
+[[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
 hash = "7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709"
 
@@ -703,6 +751,10 @@ hash = "31067d0b13a8be2817abcd15f09c26ff5dfb4461d235aa96fa31d32480b421b0"
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+
+[[files]]
+file = "config/tweakeroo.json"
+hash = "27f59c6cb5cc68ffa50e84afc0d6db3a57541e72a266f0fb0186590dedb27e6b"
 
 [[files]]
 file = "config/vanilla_structures/placement_structure_config.json5"
@@ -850,7 +902,127 @@ hash = "82caee9b1f532332c798ee216c9a9ba5857c35e58afacba44946d9264fc05b36"
 
 [[files]]
 file = "data/fabricDefaultResourcePacks.dat"
-hash = "746265d15cfe19b5bc1c2a3de77af252d49af4e4b6c1c8145e42d87ecdf09bae"
+hash = "23c3136ef95bbfed6e468cbd28f11b0ddf4e4fd0cd1500025f1a81dc6b2a8c26"
+
+[[files]]
+file = "dynamic-data-pack-cache/hash.txt"
+hash = "8f8c22e095d247963a335a8dbb6c18ab7e6c9312ec35771f193c58b5c0eb7b35"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/enchantment/knockback.json"
+hash = "d2aae9eaa6c1a0997794756c603f93cc882a4f97d7b2cca6c8938dc89c0e1f9b"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/enchantment/multishot.json"
+hash = "f70f0209430f4e7e0086f419233378801801f1c8d163c703299c6acde4d84d90"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/enchantment/quick_charge.json"
+hash = "35251a20fd2b5ff20cc45065a1dc73dbd40e0e63c9ff3570d0d1575c2d9fbf59"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/tags/item/enchantable/knockback.json"
+hash = "006a31b1bda664311faba05c636d73153c546f80d65496c0427ca8b7863168bd"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/tags/item/enchantable/multishot.json"
+hash = "1f5215f815d2d15b80b3f30b8131945478c5b51bd8a75cc587a0f657abdcaeb3"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/minecraft/tags/item/enchantable/quick_charge.json"
+hash = "1f5215f815d2d15b80b3f30b8131945478c5b51bd8a75cc587a0f657abdcaeb3"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_acacia.json"
+hash = "afe3591498684f1a8d1c0c9cae8545be3b1942ec0a1a822a56649fe116f35d8a"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_bamboo.json"
+hash = "c9febabd7c3d9842f9ebbaa149b436b58e2c9d7043b4b7390ee9eada36635c1d"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_birch.json"
+hash = "eb8216588d2eedb668077faceb51d58ebfb6870ee910859e417c8fb59c2dda36"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_cherry.json"
+hash = "c9e3a907a13cf8b3f4de89a96e41b5ab703996a8d162278418dcc2218c5da2f9"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_dark_oak.json"
+hash = "e2033a908f9e3cc1c0b20a8a73af0ac29c95e3bfcf83317835f1b29c20254a68"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_jungle.json"
+hash = "b35495006cc989a4c572d656dce5bb9492e4f158f11edcb30b3152e99e1b8509"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_mangrove.json"
+hash = "6a8379bc4ad966f79accdebd7b2fba408c271d05a3c9ef528240bea6e56d43b7"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/cannon_boat_spruce.json"
+hash = "c180d6ac6d2426c6b0d38b51cd799ab11a07dea53462b896b46fb6e9e1eabac1"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_acacia.json"
+hash = "66a30c9967264b0bf6a029ccef4611d121ba2f8df812163f1213a74e21001f76"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_bamboo.json"
+hash = "f3b1f349d3629a62608cb7be91d979de782baab681f64d6b17f1ab908c41f186"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_birch.json"
+hash = "bd83179716cceeea148a55abd1f2a1facb56fa050a16244e3481b331f1a6058e"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_cherry.json"
+hash = "a8c4cad3585f9ab56fc242efa6aa0f9f8fb3864ed6932d85001346893968559a"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_crimson.json"
+hash = "7f03cf5e3b0f3212a96728fc38bfc3b378936d8690cf57d6ca0345328524fce9"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_dark_oak.json"
+hash = "dd2468ceedfa0ef996b9aa2fe73b4ca2561bee1eba987e8d7fe4ebdfb00f31a9"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_jungle.json"
+hash = "49c858a1015d9e747b2d04549ef061ddcb2a983c48da3ce2de4940b4244a01a6"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_mangrove.json"
+hash = "bc1db6a282f4e548f3036e380e2c1f5ca6967f93fe2a8cbaaa50b80dacc47df4"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_spruce.json"
+hash = "71ca155ce0975a5c38e9f5889c18b3d9dc78f1ca9c53142d47df1486c388d3eb"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/recipe/way_sign_warped.json"
+hash = "2dfca4f23fb7fc2363156efeecb22185b2369b2685dffdd1c06ea3a4ae5d462d"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/tags/item/cannon_boats.json"
+hash = "c734b5195e6ab4dbeada9c722ae3413f29258a5606b3a181a2b65587a7cab387"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/tags/item/way_signs.json"
+hash = "f9565d8ee45a4a58d7c32c4a74e529eb29c34a61d84e3873f900b2b5ea713f82"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/tags/worldgen/biome/has_galleons.json"
+hash = "90c1397d9c54faf76cfb6d148aa497e8ffcb88523a9c5ec6baf4bc33661efd57"
+
+[[files]]
+file = "dynamic-data-pack-cache/supplementaries-generated_pack/data/supplementaries/tags/worldgen/biome/has_road_signs.json"
+hash = "32585cc68dbf73fca70dd022de1177585adad75d0126e15820d7c21b47b98b89"
+
+[[files]]
+file = "emi.json"
+hash = "18787003f235f87bc280e88eedc79c444183b33a70bac5de7ccb5c7e163a68f7"
 
 [[files]]
 file = "fancymenu_data/action_favorites.json"
@@ -869,12 +1041,36 @@ file = "fancymenu_data/buddy/buddy_leveling_NmQxYTllOWEtY2Y0Zi00ZjhiLWIzNGYtMTJj
 hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
 [[files]]
+file = "fancymenu_data/buddy/buddy_leveling_ODU5NTRkMjItMGM5YS00MjZlLTlkZGUtYTM1OWYxNmU1NWVjLTE3ODAxMjYzODUyOTM.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_leveling_YzMzYmQwNTAtZGI1ZS00Mjc2LWIxNWUtMzY3YTc4NWFkYzIzLTE3ODAxMjYwNTY5MDk.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_leveling_ZDcwYmY0NzMtNTBkNi00OTY1LWFmODMtNWNlMTIwMDc4ZjMyLTE3ODAxMjU0Njg4NDI.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
 file = "fancymenu_data/buddy/buddy_save_NmQxYTllOWEtY2Y0Zi00ZjhiLWIzNGYtMTJjY2ZjM2U4ZTIxLTE3NzkyOTIwODgyNjA.json"
-hash = "1b65a709baedb9a8c68ba8482a5803d0da483d618bf21983f8d048c0244644a8"
+hash = "65e4844d6fc52e5ef59dc1cf7c93de68c47e6ac7d4a1632026bcf3b41b323702"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_ODU5NTRkMjItMGM5YS00MjZlLTlkZGUtYTM1OWYxNmU1NWVjLTE3ODAxMjYzODUyOTM.json"
+hash = "334b2ce552c0e6761a354b16948ba1898941b83262021dc196441572d54cd28a"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_YzMzYmQwNTAtZGI1ZS00Mjc2LWIxNWUtMzY3YTc4NWFkYzIzLTE3ODAxMjYwNTY5MDk.json"
+hash = "e1d432e85d5807fe1ca5e5d6c0169fcfeda7b31c84a9853d50a8149845fdefff"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_ZDcwYmY0NzMtNTBkNi00OTY1LWFmODMtNWNlMTIwMDc4ZjMyLTE3ODAxMjU0Njg4NDI.json"
+hash = "334b2ce552c0e6761a354b16948ba1898941b83262021dc196441572d54cd28a"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "f54ebdac2b130495c09b6739f184c3e0e1d943e601e20b936dc8ec3c868f110a"
+hash = "e0d6d80e2ca0d1154cf69f14d65fa6c3ff4c880d8e3cbb529fb4a8aba9b2f692"
 
 [[files]]
 file = "icon.png"
@@ -943,6 +1139,11 @@ metafile = true
 [[files]]
 file = "mods/carpet.pw.toml"
 hash = "6b86526bfccd7f81dfa2127181bc9891b368bd0e2adce30a0aba4939d05c3550"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "8cf701e9086ea94c5f2068bd6cf50672cd0925121cd470b8ae6933e4ffc0b84b"
 metafile = true
 
 [[files]]
@@ -1140,6 +1341,11 @@ hash = "825cd1fda70439747a56bb993760084b9822260bd7a85c3beb5e1bc1c51e7bcb"
 metafile = true
 
 [[files]]
+file = "mods/iron-smelters.pw.toml"
+hash = "a9505de798669dcb161a2fd739069cb049c16cefc6b62e59be4862bdd6566a78"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "5aa5589ae06e14e6511f8e2aae72ae9d6173ca1d7b170508907d7696780f7516"
 metafile = true
@@ -1275,6 +1481,11 @@ hash = "09f750d489fc2e87b40e0a48248895fa67c74d93e42f6626c22d5abea788b909"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "0c5e1a170a12505a45f5af99b71b3d3693fc0ea129b29acfdfa7356cdbe8beb1"
+metafile = true
+
+[[files]]
 file = "mods/mouse-wheelie.pw.toml"
 hash = "a2eff0c4ff6cbc66addc5958ab8deae97867f7d75e0dcb5afac9bc233b66096b"
 metafile = true
@@ -1322,6 +1533,11 @@ metafile = true
 [[files]]
 file = "mods/pneumono_gravestones.pw.toml"
 hash = "e68c17861381999c0248241bba596cd4f8e6976f1e749466d220db174d33ebe5"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+hash = "40d4e372727245a1cb249593c1f2806e6fb8adf80ab5f2fae4b55f5bf5ac564e"
 metafile = true
 
 [[files]]
@@ -1419,13 +1635,28 @@ hash = "c30e46caf50ae1c4168300256e5b919b5d0061c23fbb344908d4c2f08202d36c"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "6efed647cbd3fa3f0f788184e5404640a8d6b2ba60573ace4de4fe2d98ae46c8"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "48d3423fa9925bc62d44cd6f5699387464d79ced92c9dfe0defdde8a1d4cc2b7"
 metafile = true
 
 [[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "992d8cd5d10b50c7c204037ef499c62624c85c73e27925b242944a7da33de825"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "b4067b9eb7bee1c32c2ab4dba01d9f224f5f1e1d3d156e2f992fa67726a81afc"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "247df33b6fd65b62bad021a6c47634d2d9086303af665a5dd13a971c871ec70e"
 metafile = true
 
 [[files]]

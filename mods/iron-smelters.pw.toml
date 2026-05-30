@@ -1,0 +1,13 @@
+name = "Iron Smelters"
+filename = "IronSmelters-fabric-1.21.1-21.1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "7358e5d0dc0f14b2f684a4ad6eec591f8b09a4911f36f5163085c16ecdaba09ca0408152fef99c372b9de33126a3b6c844fea05f3025caeef6bc5113081a6ae0"
+url = "https://cdn.modrinth.com/data/il2omh0z/versions/JWxwr9H1/IronSmelters-fabric-1.21.1-21.1.0.3.jar"
+
+[update]
+[update.modrinth]
+mod-id = "il2omh0z"
+version = "JWxwr9H1"

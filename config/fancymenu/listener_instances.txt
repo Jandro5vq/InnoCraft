@@ -1,0 +1,15 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = 75b19dd4-d7e7-4007-8eaa-113e301a4fb8-1780129026033
+  listener_provider_identifier = keyboard_key_pressed
+  listener_instance_action_script_identifier = c8bfae87-2190-4ad6-b05f-9ee8829d3fa1-1780129026033
+  [executable_action_instance:54dd97f2-3b32-44a5-8de8-08a6e7873919-1780129038425][action_type:set_variable] = seen_version:{"placeholder":"webtext","values":{"link":"https://jandro5vq.github.io/InnoCraft/version.txt"}}
+  [executable_block:4af52f9b-ae8b-4cd1-8032-bcadd66b0dde-1780129222384][type:if] = [executables:54dd97f2-3b32-44a5-8de8-08a6e7873919-1780129038425;]
+  [if_executable_block_body:4af52f9b-ae8b-4cd1-8032-bcadd66b0dde-1780129222384] = 845d1e00-3404-412a-8ba7-b55d3dabe658-1780129140367
+  [loading_requirement_container_meta:845d1e00-3404-412a-8ba7-b55d3dabe658-1780129140367] = [groups:][instances:a4b8107d-42bf-409d-ae5c-8b2d100a0775-1780129144382;]
+  [loading_requirement:is_key_pressed][requirement_mode:if][req_id:a4b8107d-42bf-409d-ae5c-8b2d100a0775-1780129144382] = 32
+  [if_executable_block_collapsed:4af52f9b-ae8b-4cd1-8032-bcadd66b0dde-1780129222384] = false
+  [executable_block:c8bfae87-2190-4ad6-b05f-9ee8829d3fa1-1780129026033][type:generic] = [executables:4af52f9b-ae8b-4cd1-8032-bcadd66b0dde-1780129222384;]
+}
+

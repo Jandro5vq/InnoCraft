@@ -1,0 +1,13 @@
+name = "TorchMaster"
+filename = "torchmaster-fabric-1.21.1-21.1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "381611792e5d04432b0aa93d5ba9eeffdc684b97239c8a8cb46eeb19d6d0a18184eac23ef6e9c35bcdafc1453e0e86b834c0f98d20ab76f4fb2198e5caa402cc"
+url = "https://cdn.modrinth.com/data/Tl8ESrhX/versions/zHm4qOmP/torchmaster-fabric-1.21.1-21.1.9.jar"
+
+[update]
+[update.modrinth]
+mod-id = "Tl8ESrhX"
+version = "zHm4qOmP"
