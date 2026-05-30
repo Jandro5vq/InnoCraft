@@ -1,12 +1,12 @@
 name = "InnoCraft"
 author = "Jandro5vq"
-version = "1.7.1"
+version = "1.7.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "11465edbc8d9fa6f55f83e3f7a7ab7ddea4eef269970e434355ff612e87f8c80"
+hash = "76e62b56238affa36317bf225155a76fd2d3ce74660f33ad1f7dc40c282fdba4"
 
 [versions]
 fabric = "0.19.2"

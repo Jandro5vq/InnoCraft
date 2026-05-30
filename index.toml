@@ -390,7 +390,7 @@ hash = "1ec60d73c93a828cb0588039c852b1a5fee5817b41b835dcfab3d8c7cea66034"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "fb7ea96fe261106863913135d895d42b3daadefc505f45827d150148f3f13226"
+hash = "24f79fde6f442cd7dd9e3c6058c659d180e9f4c7b46ef00010e8c64a2822d8d3"
 
 [[files]]
 file = "config/fancymenu/scheduler_instances.txt"
