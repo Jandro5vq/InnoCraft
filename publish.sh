@@ -44,8 +44,15 @@ if [[ -z "$CHANGELOG_BODY" && -s "$CHANGELOG_NEXT_FILE" ]]; then
   CHANGELOG_FROM_FILE=1
 fi
 if [[ -z "$CHANGELOG_BODY" ]]; then
-  echo "ERROR: falta el changelog. Pásalo con  -c \"body\"  o crea $CHANGELOG_NEXT_FILE."
-  exit 1
+  # Patches (1.x.Y) heredan el changelog del minor: si ya existe changelog.md en el
+  # repo, lo reutilizamos tal cual (no se regenera). Para forzar uno nuevo, usa -c.
+  if [[ -s changelog.md ]]; then
+    KEEP_CHANGELOG=1
+    echo "==> reutilizando changelog.md existente (patch hereda changelog del minor)"
+  else
+    echo "ERROR: falta el changelog. Pásalo con  -c \"body\"  o crea $CHANGELOG_NEXT_FILE."
+    exit 1
+  fi
 fi
 
 # --- comprobaciones previas ---
@@ -97,10 +104,15 @@ echo "==> validación: $MODS mods | .claude en index: $CLAUDE | version.txt: $(c
 [[ "$(cat version.txt)" == "$VERSION" ]] || { echo "ERROR: version.txt no coincide con $VERSION."; exit 1; }
 
 # --- changelog.md (sintaxis FancyMenu: ^^^ centra, # encabezado, - bullets) ---
-{
-  printf '^^^\n# InnoCraft v%s\n^^^\n\n' "$VERSION"
-  printf '%s\n' "$CHANGELOG_BODY"
-} > changelog.md
+if [[ "${KEEP_CHANGELOG:-0}" == "1" ]]; then
+  # Patch: conserva el body, solo refresca el número de versión del título
+  sed -i -E "s/^# InnoCraft v[0-9][0-9.]*\$/# InnoCraft v$VERSION/" changelog.md
+else
+  {
+    printf '^^^\n# InnoCraft v%s\n^^^\n\n' "$VERSION"
+    printf '%s\n' "$CHANGELOG_BODY"
+  } > changelog.md
+fi
 TOTAL_LINES="$(wc -l < changelog.md)"
 if (( TOTAL_LINES > 10 )); then
   echo "ERROR: changelog.md tiene $TOTAL_LINES líneas (máx 10). Acorta el body."

@@ -1,3 +1,3 @@
 ^^^
-# InnoCraft v1.7.0
+# InnoCraft v1.7.1
 ^^^

@@ -1,5 +1,5 @@
 ^^^
-# InnoCraft v1.7.0
+# InnoCraft v1.7.1
 ^^^
 
 %#7ED321%6 mods nuevos:%#%
