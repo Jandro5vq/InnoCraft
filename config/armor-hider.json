@@ -1,5 +1,5 @@
 {
-  "configVersion": 2,
+  "configVersion": 4,
   "helmetOpacity": 0.1,
   "helmetGlint": true,
   "chestOpacity": 0.1,
@@ -8,6 +8,7 @@
   "legsGlint": true,
   "bootsOpacity": 0.1,
   "bootsGlint": true,
+  "inCombatUseDefaultModel": false,
   "enableCombatDetection": true,
   "opacityAffectingElytra": false,
   "opacityAffectingHatOrSkull": false,
@@ -16,6 +17,7 @@
   "usePlayerSettingsWhenUndeterminable": true,
   "showSettingsInSkinCustomization": false,
   "offHandOpacity": 0.15,
+  "showShieldWhenBlocking": false,
   "playerId": "53e7ea5f-8f69-45c8-9265-2fd4c84ba7d4",
   "playerName": "Txandro",
   "exclusionItems": {

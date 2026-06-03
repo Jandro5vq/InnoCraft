@@ -168,7 +168,7 @@
     "useFontShadow": false,
     "useTextBackground": true,
     "mainRenderingToggle": {
-      "enabled": true,
+      "enabled": false,
       "hotkey": {
         "keys": "H"
       }
@@ -246,16 +246,16 @@
   "InfoTypeToggles": {
     "infoFPS": false,
     "infoMemoryUsage": false,
-    "infoTimeIRL": true,
+    "infoTimeIRL": false,
     "infoTimeWorld": false,
     "infoWorldTimeFormatted": false,
-    "infoCoordinates": true,
+    "infoCoordinates": false,
     "infoCoordinatesScaled": false,
     "infoBlockPosition": false,
     "infoChunkPosition": false,
     "infoBlockInChunk": false,
     "infoDimensionId": false,
-    "infoFacing": true,
+    "infoFacing": false,
     "infoRotationYaw": false,
     "infoRotationPitch": false,
     "infoBlockBreakSpeed": false,

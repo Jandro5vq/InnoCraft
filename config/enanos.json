@@ -1,0 +1,6 @@
+{
+  "effectDurationTicks": 2400,
+  "transitionTicks": 40,
+  "splashRadius": 3.0,
+  "affectPlayersWithSplash": true
+}

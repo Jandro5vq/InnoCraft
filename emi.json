@@ -1,6 +1,25 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": "item:minecraft:chest"
+    }
+  ],
   "lookup_history": [
+    "item:dyecraft:dyeable_wool{\"minecraft:custom_data\":{Color:-1}}",
+    "item:dyecraft:rgb_dye",
+    "item:dyecraft:dyeable_block{\"minecraft:custom_data\":{Color:-1}}",
+    "item:dyecraft:green_dye_seeds",
+    "item:dyecraft:blue_dye_seeds",
+    "item:dyecraft:red_dye_seeds",
+    "item:adorn:bee_caution_sign",
+    "item:adorn:book_caution_sign",
+    "item:artifacts:villager_hat",
+    "item:minecraft:piston",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}",
+    "item:classicpipes:copper_pipe",
+    "item:classicpipes:tag_label",
+    "item:classicpipes:mod_label",
+    "item:classicpipes:oak_pipe",
     "item:ironsmelters:obsidian_furnace",
     "item:ironchest:emerald_obsidian_upgrade",
     "item:ironchest:emerald_crystal_upgrade",
@@ -16,7 +35,9 @@
     "item:ironsmelters:gold_furnace",
     "item:ironsmelters:iron_furnace"
   ],
-  "craft_history": [],
+  "craft_history": [
+    "dyecraft:dyeable_wool"
+  ],
   "recipe_defaults": {
     "added": [],
     "tags": {},

@@ -1,3 +1,3 @@
 ^^^
-# InnoCraft v1.7.2
+# InnoCraft v1.8.0
 ^^^

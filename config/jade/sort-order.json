@@ -4,6 +4,7 @@
   "beautify:lamp_jar.glowstone_dust": null,
   "beautify:trellis.pot_plant": null,
   "camerapture:picture_frame": null,
+  "dyecraft:dyeable_block": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -67,5 +68,8 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null,
   "waystones:waystone": null
 }

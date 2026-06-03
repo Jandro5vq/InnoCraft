@@ -117,23 +117,17 @@
     }
   },
   "general": {
-    // General settings
+    // Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
+    "use_external_resource_pack": false,
     // Accepted values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
     "dynamic_assets_generation_mode": "CACHED",
-    // Disables Optifine warn screen
     "no_optifine_warn_screen": false,
-    // Disable incompatible mods warning screen
     "no_incompatible_mods_screen": false,
-    // Enable Quark style config button on main menu. Needs Configured installed to work
     "config_button": false,
-    // Config button Y offset
     // Accepted range: -10000 to 10000
     "config_button_y_offset": 0,
-    // Show some tooltip hints to guide players through the mod
     "tooltip_hints": true,
-    // Show tooltips items that have been made placeable
     "placeable_tooltips": true,
-    // Enables custom Configured config screen
     "custom_configured_screen": true,
     "I am very boring and I don\u0027t want any Easter Egg": false
   },

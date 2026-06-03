@@ -62,6 +62,14 @@
     "entity": true,
     "entity_variant": true
   },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
+  },
+  "dyecraft": {
+    "dyeable_block": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

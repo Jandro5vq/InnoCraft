@@ -6,10 +6,20 @@
     "supplementaries:way_sign_cherry",
     "supplementaries:way_sign_crimson",
     "supplementaries:way_sign_dark_oak",
+    "supplementaries:betterend/way_sign_dragon_tree",
+    "supplementaries:betterend/way_sign_end_lotus",
+    "supplementaries:betterend/way_sign_helix_tree",
+    "supplementaries:betterend/way_sign_jellyshroom",
     "supplementaries:way_sign_jungle",
+    "supplementaries:betterend/way_sign_lacugrove",
+    "supplementaries:betterend/way_sign_lucernia",
     "supplementaries:way_sign_mangrove",
+    "supplementaries:betterend/way_sign_mossy_glowshroom",
     "supplementaries:way_sign_oak",
+    "supplementaries:betterend/way_sign_pythadendron",
     "supplementaries:way_sign_spruce",
+    "supplementaries:betterend/way_sign_tenanea",
+    "supplementaries:betterend/way_sign_umbrella_tree",
     "supplementaries:way_sign_warped"
   ]
 }

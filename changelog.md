@@ -1,8 +1,12 @@
 ^^^
-# InnoCraft v1.7.2
+# InnoCraft v1.8.0
 ^^^
 
-%#7ED321%6 mods nuevos:%#%
-- **Carry On** · **IronSmelters** · **MouseTweaks**
-- **Prickle** · **Torchmaster** · **Trashcans**
-- Ajustes menores de configs.
+%#7ED321%Mods nuevos:%#%
+- **Artifacts**
+- **Tom's Storage**
+- **Lootr**
+- **True Ending**
+- **DyeCraft**
+- **Target Dummy**
+- Varios mods actualizados + ajustes.

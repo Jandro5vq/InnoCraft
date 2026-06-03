@@ -1,0 +1,13 @@
+name = "Artifacts crafting"
+filename = "artifactscrafting-1.1.0-RPG.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "89b4cb1aaf7219936793c712a484da860de8032fd88e9fcc51b23afdb02514974291ca2c31e5deb953591b44622a539e89316ba65a5293f0ec4a5623d11c2c95"
+url = "https://cdn.modrinth.com/data/GFqBpmHU/versions/HNGzMHGS/artifactscrafting-1.1.0-RPG.jar"
+
+[update]
+[update.modrinth]
+mod-id = "GFqBpmHU"
+version = "HNGzMHGS"

@@ -1,0 +1,13 @@
+name = "XBRGB-DyeCraft"
+filename = "DyeCraft-Fabric-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "08ccfbd5447e8bd46df45a13bf4d6ba3615cc69f72f7dafb4cc54f76b4ecceab7c8e0716254bf96a0287ed12e110d5d27cab412c9275e3ce3d087224070c1292"
+url = "https://cdn.modrinth.com/data/f6YrFYJU/versions/PpW1REBo/DyeCraft-Fabric-1.21.1-1.1.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "f6YrFYJU"
+version = "PpW1REBo"

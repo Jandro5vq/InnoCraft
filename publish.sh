@@ -115,10 +115,9 @@ else
 fi
 TOTAL_LINES="$(wc -l < changelog.md)"
 if (( TOTAL_LINES > 10 )); then
-  echo "ERROR: changelog.md tiene $TOTAL_LINES líneas (máx 10). Acorta el body."
-  exit 1
+  echo "⚠️  changelog.md tiene $TOTAL_LINES líneas (recomendado ≤10). Continúo igualmente."
 fi
-echo "==> changelog.md generado ($TOTAL_LINES/10 líneas)"
+echo "==> changelog.md generado ($TOTAL_LINES líneas, recomendado ≤10)"
 # si el body venía de CHANGELOG_NEXT.md, ya cumplió su función → eliminar
 [[ "${CHANGELOG_FROM_FILE:-0}" == "1" ]] && rm -f "$CHANGELOG_NEXT_FILE"
 

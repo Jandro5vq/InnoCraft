@@ -85,6 +85,7 @@
 		"backSlotIntegration": true
 	},
 	"backpackUpgrades": {
+		"enableSleepingBag": true,
 		"enableTanksUpgrade": true,
 		"enableCraftingUpgrade": true,
 		"enableFurnaceUpgrade": true,
@@ -119,7 +120,8 @@
 			"enableUpgrade": true,
 			"filterSlotCount": 9,
 			"slotsInRow": 3
-		}
+		},
+		"enableLanternUpgrade": true
 	},
 	"world": {
 		// Enables backpacks spawning in loot chests

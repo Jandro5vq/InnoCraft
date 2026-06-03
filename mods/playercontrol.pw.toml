@@ -1,0 +1,13 @@
+name = "PlayerControl"
+filename = "fackplayercontrol-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha512"
+hash = "ee4dc605ac91007306e24df9e1e5d82da04a6649ffeb2bc0e40f119505fd95ecea5f601bbe55f5cb2fdd95c18f84292ac09f7fa56f58b3ca76b8502b135a114c"
+url = "https://cdn.modrinth.com/data/wUqeB4tD/versions/JX8LZnmS/fackplayercontrol-1.0.0.jar"
+
+[update]
+[update.modrinth]
+mod-id = "wUqeB4tD"
+version = "JX8LZnmS"
