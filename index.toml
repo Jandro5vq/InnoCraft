@@ -62,7 +62,7 @@ hash = "0d4971e2356a4ceabc4c4b2d69c81c2d3fbcf4b46e384423098f3856dcd2689c"
 
 [[files]]
 file = "config/bclib/client.json"
-hash = "ea70b76bc3e875a81c5bcefc59a4a192a6797c635924f65326cd5707c3361b19"
+hash = "f9433a802cb329a53b7040c917fed371d70836ae7b6086bb0ed7ba47c31b4f27"
 
 [[files]]
 file = "config/bclib/main.json"

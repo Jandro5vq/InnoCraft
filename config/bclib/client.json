@@ -1,8 +1,8 @@
 {
   "create_version": "21.0.13",
   "rendering": {
-    "custom_fog_rendering": true,
-    "nether_thick_fog": true,
+    "custom_fog_rendering": false,
+    "nether_thick_fog": false,
     "fog_density": 1.0
   },
   "ui": {

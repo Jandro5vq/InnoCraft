@@ -1,6 +1,8 @@
 ^^^
-# InnoCraft v1.8.1
+# InnoCraft v1.8.2
 ^^^
+
+%#FFD23F%Arreglada la niebla rara (BCLib).%#%
 
 %#7ED321%Mods nuevos:%#%
 - **Artifacts**
