@@ -1,5 +1,5 @@
 ^^^
-# InnoCraft v1.8.2
+# InnoCraft v1.8.3
 ^^^
 
 %#FFD23F%Arreglada la niebla rara (BCLib).%#%
@@ -11,5 +11,6 @@
 - **True Ending**
 - **Construction Wand**
 - **AmbientSounds**
+- **Discontinuous Beacon Beams**
 - **Target Dummy**
 - Varios mods actualizados + ajustes.

@@ -454,7 +454,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9af0e05f509ca3f3ae908df08ea404dadc68daa56fdc178eed67dd4981971bb6"
+hash = "1c58d7d566626b7be99a7d4749dcb83a61d10a45b588810de9e95f59403da4e0"
 
 [[files]]
 file = "config/fancymenu/assets/624dc45d01f98.jpeg"
@@ -534,7 +534,7 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "b0e5dfa55cc91a5d3e856bc23ba5fae1dd946d2bc667026919e5252b053396da"
+hash = "7569b0160890db562e49e3144329da2f7397a16b17598398513b0fbb81164c35"
 
 [[files]]
 file = "config/farmersdelight-client.json"
@@ -598,7 +598,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "a853305b73309c5ce2cafda90024ad9d60ef32621461038b05f1edce96de34d0"
+hash = "fd35c89b724a94c933cd2bcb0c3dd918159aee552848aa27189e4ff6617f9b65"
 
 [[files]]
 file = "config/ironsmelters.json"
@@ -1559,6 +1559,11 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "e04a6a8b9e494c8000a5847e3e5517ab0e0299b11534e65b09409c3fb21f2f0e"
+metafile = true
+
+[[files]]
+file = "mods/discontinuous-beacon-beams.pw.toml"
+hash = "9f2935b71bf4ef69d3029518ae3ee1f0768ed0e91d8f023aaf135defcd29bb5b"
 metafile = true
 
 [[files]]
