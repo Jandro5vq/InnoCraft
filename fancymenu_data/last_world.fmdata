@@ -2,6 +2,6 @@ type = last_world
 
 last_world {
   is_server = false
-  world = /home/alejandro/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/InnoCraft 1.7.3/minecraft/saves/New World (2)
+  world = /home/alejandro/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/InnoCraft 1.8.0/minecraft/saves/New World (2)
 }
 

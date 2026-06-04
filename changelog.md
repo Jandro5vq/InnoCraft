@@ -1,5 +1,5 @@
 ^^^
-# InnoCraft v1.8.0
+# InnoCraft v1.8.1
 ^^^
 
 %#7ED321%Mods nuevos:%#%
@@ -7,6 +7,7 @@
 - **Tom's Storage**
 - **Lootr**
 - **True Ending**
-- **DyeCraft**
+- **Construction Wand**
+- **AmbientSounds**
 - **Target Dummy**
 - Varios mods actualizados + ajustes.

@@ -992,6 +992,10 @@
         "minecraft:minecart": {
           "displayName": "Minecart",
           "shouldIgnore": false
+        },
+        "minecraft:netherite_axe": {
+          "displayName": "Netherite Axe",
+          "shouldIgnore": false
         }
       }
     }
